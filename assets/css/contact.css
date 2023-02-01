@@ -1,0 +1,205 @@
+header{
+	position: sticky;
+	top: 0px;
+	height: 80px;
+	right: 0;
+	width: 100%;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #121212;
+	/* padding: 20px; */
+	transition: ease .40s;
+}
+.navbar{
+	display: flex;
+}
+.navbar .link{
+	color: #a3e748;
+	font-size: var(--p-font);
+	font-weight: 500;
+	padding: 10px 22px;
+	border-radius: 4px;
+	transition: ease .40s;
+}
+.navbar .link:hover{
+	background: #a3e748;
+	color: #121212;
+	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+	border-radius: 4px;
+}
+
+#menu-icon{
+	color: var(--bg-color);
+	font-size: 35px;
+	z-index: 10001;
+	cursor: pointer;
+	display: none;
+}
+header.sticky{
+	background: #fff;
+	color: #121212;
+	padding: 10px 18%;
+	box-shadow: rgba(33,35,38, 0.1) 0px 10px 10px -10px;
+}
+.logo2 {
+	display: none
+}
+header.sticky .logo1 {
+	display: none
+}
+header.sticky .logo2 { 
+	display: block
+}
+.sticky .navbar .link{
+	color: #121212;
+}
+body {
+    background-color: #fff;
+    line-height: 1.9;
+    color: #121212;
+    position: relative; }
+    body:before {
+      z-index: -1;
+      position: absolute;
+      height: 50vh;
+      content: "";
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+ 
+  .link {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    .link, .link:hover {
+      text-decoration: none !important; }
+  
+  .content {
+    padding: 7rem 0; }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: 900; }
+  
+  .form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+    background: none; }
+    .form-control:active, .form-control:focus {
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-color: #121212; }
+  
+  .col-form-label {
+    color: #121212;
+    font-size: 13px; }
+  
+  .btn, .form-control, .custom-select {
+    height: 45px; }
+  
+  .custom-select:active, .custom-select:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #121212; }
+  
+  .btn-message {
+    border: none;
+    border-radius: 0;
+    font-size: 12px;
+    height: 60px;
+    width: 180px;
+    letter-spacing: .2rem;
+    text-transform: uppercase; }
+    .btn-message{
+      background: #a3e748;
+      color: #fff;
+      padding: 15px 20px; }
+    .btn-message:hover {
+      background-color: #121212;
+      color: #fff; }
+    .btn-message:active, .btn-message:focus {
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+.placeholder{
+    margin-bottom: 20px;
+}
+
+  .contact-wrap {
+    -webkit-box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2); }
+    .contact-wrap .col-form-label {
+      font-size: 14px;
+      color: #b3b3b3;
+      margin: 0 0 10px 0;
+      display: inline-block;
+      padding: 0; }
+    .contact-wrap .form, .contact-wrap .contact-info {
+      padding: 40px; }
+    .contact-wrap .contact-info {
+      color: rgba(255, 255, 255, 0.5); }
+      .contact-wrap .contact-info .list-unstyled .d-flex {
+        margin-bottom: 15px;
+        color: rgba(255, 255, 255, 0.5); }
+        .contact-wrap .contact-info .list-unstyled .d-flex .wrap-icon {
+          font-size: 20px;
+          align-items: center;
+          justify-content: center;
+          color: #fff;
+          margin-top: 5px; }
+    .contact-wrap .form {
+      background: #fff; }
+      .contact-wrap .form h3 {
+        color: #a3e748;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+    .contact-wrap .form h2 {
+        color: #a3e748;
+        font-size: 25px;
+        margin-bottom: 20px; }
+    .contact-wrap .contact-info {
+      background: #a3e748; }
+      .contact-wrap .contact-info h3 {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 30px; }
+  
+  label.error {
+    font-size: 12px;
+    color: red; }
+  
+  #message {
+    resize: vertical; }
+  
+  #form-message-warning, #form-message-success {
+    display: none; }
+  
+  #form-message-warning {
+    color: #B90B0B; }
+  
+  #form-message-success {
+    color: #a3e748;
+    font-size: 18px;
+    font-weight: bold; }
+  
+  .submitting {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    display: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000; }
+  .ico {
+    font-size: 20px;
+    padding-right: 10px;
+  }
